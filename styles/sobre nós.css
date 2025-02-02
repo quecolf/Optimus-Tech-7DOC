@@ -1,0 +1,53 @@
+.informações{
+    padding: 3em 17em;
+    text-align: center;
+}
+
+.informações__título-seção{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.informações__título{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    margin: 0.65em 0;
+}
+
+.informações__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    text-align: center;
+}
+
+.métricas-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 2em 3em 2em;
+}
+
+.métricas-container__métrica{
+    width: 17em;
+}
+
+.métricas-container__título{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.métricas-container__subtítulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.métricas-container__texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}

@@ -1,0 +1,43 @@
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    padding: 0.5em 5em;
+    justify-content: space-between;
+}
+
+.cabeçalho-logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho-logo__texto{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0.5em;
+    color: var(--cinza-escuro);
+}
+
+.cabeçalho-páginas{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: 3em;
+}
+
+.cabeçalho-páginas__link, .cabeçalho-botões__entrar{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+    margin: 0 1em;
+}
+
+.cabeçalho-botões__cadastro{
+    background-color: var(--vermelho-vinho);
+    border-radius: 0.5em;
+    padding: 0.75em 0.9em;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco);
+}

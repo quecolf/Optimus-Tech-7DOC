@@ -1,0 +1,21 @@
+@import url(styles/cabeçalho.css);
+@import url(styles/sobre\ nós.css);
+@import url(styles/vagas\ abertas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/rodapé.css);
+
+:root{
+    --fonte-principal: "Inter", serif;
+    --branco: #FFFFFF;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --vermelho-vinho: #8E2424;
+    --azul-escuro: #101828;
+    --amarelo-claro: rgba(142, 36, 36, 0.05);
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    background-color: var(--branco);
+}
